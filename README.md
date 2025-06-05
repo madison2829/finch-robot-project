@@ -18,38 +18,6 @@ Your program must demonstrate your understanding of Java programming concepts fr
 - Create well-documented and maintainable code
 - Practice technical communication through presentations and documentation
 
-## Timeline/Checklist
-
-### Planning & Research
-- Choose your challenge: dance, drawing, or maze navigation
-- Explore the Finch API documentation
-- Review sample programs from BirdBrain Technologies
-- Create a project plan with pseudocode/flow charts/
-- Clone and set up GitHub repository for your project
-
-### Development
-- Write initial code implementation
-- Test basic functionality with the Finch robot
-- Debug and refine your approach
-- Document your progress and challenges
-
-### Implementation & Testing
-- Complete core functionality implementation
-- Conduct thorough testing with the robot
-- Optimize code for readability and efficiency
-- Start preparing documentation
-
-### Finalization
-- Finalize code and ensure complete functionality
-- Complete README documentation
-- Prepare for demonstration
-- Submit final project to GitHub
-
-### Deployment
-- Demonstrate your project
-
-## Required Components
-
 ### Technical Requirements
 Your program must include at least 5 of these Java/OOP concepts:
 - Inheritance/Subclasses
@@ -72,47 +40,11 @@ Your program must include at least 5 of these Java/OOP concepts:
   * Future enhancements
   * Video or images of your robot in action (embedded or linked)
 
-## Project Rubric (16 points total)
-
-| Category | 4 Points | 3 Points | 2 Points | 1 Point |
-|----------|----------|----------|----------|---------|
-| **Program Functionality** | Program fully accomplishes the chosen challenge with additional creative features. Robot behavior is refined, reliable, and impressive. | Program successfully completes the chosen challenge with minor limitations. Robot behavior is consistent and functional. | Program partially completes the challenge with some inconsistencies. Robot behavior has notable limitations. | Program fails to achieve the core objectives of the challenge. |
-| **Code Quality & OOP Implementation** | Code demonstrates excellent OOP design with 6+ APCSA concepts implemented effectively. Code is elegant, efficient, and well-structured. | Code uses good OOP practices with 5 APCSA concepts implemented correctly. Code is readable and organized. | Code implements basic OOP structure with minimum required APCSA concepts. Some organizational issues present. | Code lacks proper OOP implementation or has significant structural problems. |
-| **Documentation & GitHub Repository** | Exceptional documentation with comprehensive README, well-commented code, and excellent repository organization. | Complete documentation with clear README, adequately commented code, and organized repository. | Basic documentation with minimal README, some comments, and basic repository structure. | Insufficient documentation or poorly organized repository. |
-| **Development & Version Control** | The repository demonstrates excellent use of Git and GitHub by having many commits and updates to one or more branches of the repository | The repository shows great use of Git and GitHub by having more than 2 new commits to the repository | The repository demonstrates basic used of Git and GitHub by having at least 1 new commit to a branch of the repository | The repository only have the initial clone of the or no project submitted |
-
-## Challenge-Specific Guidelines
-
-### Dance Challenge
-Create a choreographed dance routine for your Finch that synchronizes:
-- Movement patterns (forward/backward, turns)
-- LED light displays (beak and tail)
-- Sound patterns using the buzzer
-- Consider using arrays to store sequences of movements/lights/sounds
-
-### Drawing Challenge
-Program your Finch to create an artistic drawing:
-- Design an algorithm to create a recognizable pattern or image
-- Use precise motor control for clean lines
-- Consider incorporating sensor data to affect the drawing
-- Create a system to track position on the drawing surface
-
-### Maze Navigation Challenge
-Program your Finch to navigate through a maze:
-- Use distance sensors to detect walls
-- Implement an algorithm for maze solving (wall following, etc.)
-- Consider storing and analyzing the path taken
-- Add visual/audio feedback during navigation
-- Optional: Allow for maze "learning" and optimization on repeated runs
-
-## Resources
-- Finch API Documentation (provided in class)
-- [BirdBrain Technologies Learning Resources](https://learn.birdbraintechnologies.com/finch/java/program/)
-- [Java API Documentation](https://docs.oracle.com/en/java/javase/11/docs/api/index.html)
-
-## Extension Opportunities
-If you complete your chosen challenge early, consider:
-- Adding sensor-responsive behaviors to your program
-- Creating a user interface to control robot parameters (JFrame, Swing, JavaFX)
-- Implementing multiple modes of operation
-- Adding an obstacle detection and avoidance system
+  ## Description of design choices
+  We wanted to keep our finch robot simple and efficent. We edited the speed so the sensors would work more effectively but we ended up changing the speed to a lower number so the drift wouldnt affect our progress while running through the maze. The distance of the finch while it was moving forward would bump into walls ahead. So we edited the distance so it wouldnt ruin future progress. 
+  ## Challenges faced and solutions
+  Some challenges we faced we multitasking because we were too busy with other parts of this project that we didnt concentrate enough in the advanced coding aspect, and incorporate CSA foundations. We found a solution to this problem by looking at the rubric and ending all possible distractions around us. Another problem we encountered was that our robot would drift to the left while going straight, which would constantly ruin our progress. A solution we found was to find a constant we could use when setting the finch robot in the maze. We used the length of a finger to know the distance between the walls and the finch ended up going straight and not running into the walls after. 
+  ## future enhancements
+  Some future enhancement ideas we had was that when it completes a turn the beak changes its colors. When we reach the end of the maze, it plays music and starts dancing and the beak color changes rapidly.
+  # video or image of your robot in action (embedded or linked)
+<video controls src="IMG_5261.mov" title="Title"></video>
